@@ -12,8 +12,8 @@
 <link href="https://cdn.datatables.net/v/zf/dt-1.10.16/datatables.min.css" type="text/css" rel="stylesheet" />
 
 <!-- Custom -->
-<link href="/css/app.css" type="text/css" rel="stylesheet">
-<link href="/css/custom.css" type="text/css" rel="stylesheet">
+<link href="css/app.css" type="text/css" rel="stylesheet">
+<link href="css/custom.css" type="text/css" rel="stylesheet">
 
 <!-- ======================================= -->
 <!-- JS resources -->
