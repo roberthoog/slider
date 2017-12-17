@@ -10,7 +10,7 @@ if (!isset($_GET['id']) || empty($_GET['id']) || !is_numeric($_GET['id'])) {
     /*
      * Get images list.
      */
-    $sql = 'SELECT title
+    $sql = 'SELECT path, title
             FROM images';
 
     $statement = $pdo->prepare($sql);
@@ -68,11 +68,13 @@ if (!isset($_GET['id']) || empty($_GET['id']) || !is_numeric($_GET['id'])) {
             <ul class="cb-slideshow">
                 <?php
                 foreach ($images as $image) {
+                    $path  = $image['path'];
                     $title = $image['title'];
                     ?>
                     <li>
                         <span>
-                            <?php echo $title; ?>
+                        <img src="<?php echo $path; ?>" alt="<?php echo $title; ?>">
+                            
                         </span>
                     </li>
                     <?php

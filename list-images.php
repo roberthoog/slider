@@ -33,7 +33,7 @@ $sql = 'SELECT
             imsh.images_shops_id,
             imsh.image_id,
             im.title,
-            im.path,
+            --im.path,
             im.filename,
             im.display_start_date,
             im.display_end_date,
@@ -122,12 +122,12 @@ $images = $statement->fetchAll();
                                 <th class="dt-id-column">ID</th>
                                 <th>Butik</th>
                                 <th>Namn</th>
-                                <th>Path</th>
+                                <!-- <th>Path</th> -->
                                 <th>Filnamn</th>
-                                <th>Startdatum, visning</th>
-                                <th>Slutdatum, visning</th>
-                                <th>Visning i sek</th>
-                                <th>Hantering</th>
+                                <th>Startdatum</th>
+                                <th>Slutdatum</th>
+                                <th>Längd,sek</th>
+                                <th>Hantera</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -136,7 +136,7 @@ $images = $statement->fetchAll();
                                 $imagesShopsId = $image['images_shops_id'];
                                 $imageId = $image['image_id'];
                                 $title = $image['title'];
-                                $path = $image['path'];
+                                // $path = $image['path'];
                                 $filename = $image['filename'];
                                 $displayStartDate = $image['display_start_date'];
                                 $displayEndDate = $image['display_end_date'];
@@ -153,9 +153,9 @@ $images = $statement->fetchAll();
                                     <td>
                                         <?php echo $title; ?>
                                     </td>
-                                    <td>
+                                   <!--  <td>
                                         <?php echo $path; ?>
-                                    </td>
+                                    </td> -->
                                     <td>
                                         <?php echo $filename; ?>
                                     </td>

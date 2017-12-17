@@ -53,6 +53,10 @@ button.success {
     background-color: #e1b137;
     color: #2f6343;
 }
+.callout button.success {
+    background-color: sandybrown;
+    color: #fff;
+}
 
 
 fieldset {
