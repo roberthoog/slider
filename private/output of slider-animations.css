@@ -1,0 +1,206 @@
+
+/*********************************************/
+/* THE FIRST IMAGE - CSS AND @keyframes rule */
+/*********************************************/
+
+.cb-slideshow li:nth-child(1) span {
+    background-image: url(../images/1.jpg);
+    
+    -webkit-animation-name: imageAnimation1;
+    -webkit-animation-duration: 21s;
+    -webkit-animation-delay: 0s;
+    
+    -moz-animation-name: imageAnimation1;
+    -moz-animation-duration: 21s;
+    -moz-animation-delay: 0s;
+    
+    -o-animation-name: imageAnimation1;
+    -o-animation-duration: 21s;
+    -o-animation-delay: 0s;
+    
+    -ms-animation-name: imageAnimation1;
+    -ms-animation-duration: 21s;
+    -ms-animation-delay: 0s;
+    
+    animation-name: imageAnimation1;
+    animation-duration: 21s;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    14.28571429% { opacity: 1; }
+    21.42857143% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    14.28571429% { opacity: 1; }
+    21.42857143% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    14.28571429% { opacity: 1; }
+    21.42857143% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    14.28571429% { opacity: 1; }
+    21.42857143% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    14.28571429% { opacity: 1; }
+    21.42857143% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+/**********************************************/
+/* THE SECOND IMAGE - CSS AND @keyframes rule */
+/**********************************************/
+
+.cb-slideshow li:nth-child(2) span {
+    background-image: url(../images/2.jpg);
+
+    -webkit-animation-name: imageAnimation2;
+    -webkit-animation-duration: 21s;
+    -webkit-animation-delay: 3s;
+    
+    -moz-animation-name: imageAnimation2;
+    -moz-animation-duration: 21s;
+    -moz-animation-delay: 3s;
+    
+    -o-animation-name: imageAnimation2;
+    -o-animation-duration: 21s;
+    -o-animation-delay: 3s;
+    
+    -ms-animation-name: imageAnimation2;
+    -ms-animation-duration: 21s;
+    -ms-animation-delay: 3s;
+
+    animation-name: imageAnimation2;
+    animation-duration: 21s;
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    57.14285714% { opacity: 1; }
+    64.28571428% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    57.14285714% { opacity: 1; }
+    64.28571428% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    57.14285714% { opacity: 1; }
+    64.28571428% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    57.14285714% { opacity: 1; }
+    64.28571428% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    57.14285714% { opacity: 1; }
+    64.28571428% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+/*********************************************/
+/* THE THIRD IMAGE - CSS AND @keyframes rule */
+/*********************************************/
+
+.cb-slideshow li:nth-child(3) span {
+    background-image: url(../images/3.jpg);
+    
+    -webkit-animation-name: imageAnimation3;
+    -webkit-animation-duration: 21s;
+    -webkit-animation-delay: 15s;
+
+    -moz-animation-name: imageAnimation3;
+    -moz-animation-duration: 21s;
+    -moz-animation-delay: 15s;
+    
+    -o-animation-name: imageAnimation3;
+    -o-animation-duration: 21s;
+    -o-animation-delay: 15s;
+    
+    -ms-animation-name: imageAnimation3;
+    -ms-animation-duration: 21s;
+    -ms-animation-delay: 15s;
+    
+    animation-name: imageAnimation3;
+    animation-duration: 21s;
+    animation-delay: 15s;
+}
+
+@-webkit-keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    28.57142857% { opacity: 1; }
+    35.71428571% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    28.57142857% { opacity: 1; }
+    35.71428571% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    28.57142857% { opacity: 1; }
+    35.71428571% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    28.57142857% { opacity: 1; }
+    35.71428571% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    28.57142857% { opacity: 1; }
+    35.71428571% { opacity: 0; }
+    100% { opacity: 0; }
+}

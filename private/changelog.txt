@@ -1,0 +1,10 @@
+
+Changelog:
+
+-----------------------------------------
+17.12.2017
+-----------------------------------------
+
+- Search for "@todo" in all pages and act correspondingly.
+- Renamed column "name" to "title" in db table "images" and applied the change to all php codes.
+- Removed all columns in db table "shops" except "shop_id" and "city". So, the table has now only two columns. Applied the change to all php codes.

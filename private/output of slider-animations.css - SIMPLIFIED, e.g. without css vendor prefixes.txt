@@ -1,0 +1,62 @@
+
+/*********************************************/
+/* THE FIRST IMAGE - CSS AND @keyframes rule */
+/*********************************************/
+
+.cb-slideshow li:nth-child(1) span {
+    background-image: url(../images/1.jpg);
+    
+    animation-name: imageAnimation1;
+    animation-duration: 21s;
+    animation-delay: 0s;
+}
+
+@keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    14.28571429% { opacity: 1; }
+    21.42857143% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+/**********************************************/
+/* THE SECOND IMAGE - CSS AND @keyframes rule */
+/**********************************************/
+
+.cb-slideshow li:nth-child(2) span {
+    background-image: url(../images/2.jpg);
+
+    animation-name: imageAnimation2;
+    animation-duration: 21s;
+    animation-delay: 3s;
+}
+
+@keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    57.14285714% { opacity: 1; }
+    64.28571428% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+/*********************************************/
+/* THE THIRD IMAGE - CSS AND @keyframes rule */
+/*********************************************/
+
+.cb-slideshow li:nth-child(3) span {
+    background-image: url(../images/3.jpg);
+
+    animation-name: imageAnimation3;
+    animation-duration: 21s;
+    animation-delay: 15s;
+}
+
+@keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    7.14285714% { opacity: 1; }
+    28.57142857% { opacity: 1; }
+    35.71428571% { opacity: 0; }
+    100% { opacity: 0; }
+}

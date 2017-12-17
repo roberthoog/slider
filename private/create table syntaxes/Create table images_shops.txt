@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `images_shops`;
+
+CREATE TABLE `images_shops` (
+  `images_shops_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `image_id` int(11) unsigned NOT NULL,
+  `shop_id` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`images_shops_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

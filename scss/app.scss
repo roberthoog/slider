@@ -1,0 +1,239 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-flex-grid;
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+// @include foundation-prototype-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+ul {
+    margin-left: 0!important;
+}
+
+body {
+    font-family: 'Raleway'!important;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FFE4B5!important;   
+}
+
+.cell {
+	max-width: 90vw;
+}
+.sub-style {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label {
+	font-size: 16px;
+	font-weight: 900;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    letter-spacing: 1px;
+}
+
+input[type="checkbox"] {
+    width: 17px!important;
+    height: 17px!important;
+    border:2px solid #fff!important;
+}
+
+
+.bordered {
+
+    margin: 10px;
+    padding:10px;
+    border: 5px solid lightGreen;
+    max-width: 75vw;
+}
+
+h1, 
+.h1,
+h2 {
+    font-family: "Raleway";
+    margin-bottom: 2.5rem;
+    font-weight: 900;
+}
+h4 {
+    margin-bottom: 60px;
+}
+input[type=checkbox] {
+    padding: 20px;
+    margin: 5px;
+}
+input[type='text'], input[type='number'] {
+    max-width: 300px;
+        border:2px solid #222!important;
+
+}
+legend {
+    padding:10px;
+}
+
+nav.menu {
+
+    padding: 25px 10px;
+    background-color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    display: block;
+    
+        @include clearfix;
+        
+        a:menu {color:#fff!important}
+}
+footer.menu {
+    @extend nav;
+    margin: 50px auto 0!important auto;
+    position: relative;
+    bottom: 0
+}
+strong { 
+    font-family: "Raleway";
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 20px; 
+    letter-spacing: 1.1px;    
+}
+#danger {
+    background-color: #FF0000!important;
+    color: #fff;
+    padding:10px;
+}
+
+table {
+    margin: 10px auto;
+    width:99%;
+    overflow-x: hidden!important;
+    @include breakpoint(medium down) {
+        width:98%;
+    }
+}
+
+ .datepicker, 
+ .ui-widget-header, 
+ .ui-widget-content {
+    background-color: #fff;
+}
+.ui-icon .ui-icon-circle-triangle-w {
+    float: left;
+    padding:55px;
+}
+.ui-icon-circle-triangle-e {
+    float: right;
+    padding:5px;
+}
+button, button, .primary, .success {
+    @extend button;
+    border-radius:0px!important;
+}
+.button#success {
+    background-color: #3adb76;
+    color: #fff;
+}
+
+tr > td { 
+    font-size: 13.5px;
+    letter-spacing: 1.1px;
+    font-weight:900;
+}
+.row {
+    max-width: 95%!important;
+}
+.wide {
+  width: 95%!important;
+}
+.page-wrapper {
+    margin: 20px auto;
+    display: block; 
+}
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img .logo {
+    display: block!important;
+    clear: both;
+    
+}
+
+
+
+
+
+/* *************************************************************** */
+.fullscreen-image-slider {
+  .orbit-image {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .orbit-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+    background: none;
+    text-align: center;
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+body {
+  padding: 0;
+}
+

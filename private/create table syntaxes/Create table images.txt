@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS `images`;
+
+CREATE TABLE `images` (
+  `image_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
+  `path` text,
+  `filename` varchar(100) DEFAULT NULL,
+  `display_start_date` varchar(10) DEFAULT NULL,
+  `display_end_date` varchar(10) DEFAULT NULL,
+  `display_delay` int(11) unsigned DEFAULT NULL,
+  `upload_date` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`image_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

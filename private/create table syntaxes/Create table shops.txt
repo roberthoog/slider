@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `shops`;
+
+CREATE TABLE `shops` (
+  `shop_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `city` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`shop_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
